@@ -1,0 +1,87 @@
+/*Inicio de página principal */
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+.navbar {
+    background-color: #8BD9AD;
+    font-family: 'Happy Monkey';
+
+}
+
+.navbar-toggler-icon{
+color: black;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 700;
+}
+
+.nav-item a {
+    target: blank;
+    font-size: 3vh;
+    margin: 0 02vw 0 2vw;
+}
+
+a:hover {
+    color: #F2F1DC;
+}
+
+.carousel-item {
+    max-height: 65vh;
+    background-size: contain;
+}
+
+.slogan{
+    font-family: 'Happy Monkey';
+    text-align: center;
+    color:#623918;
+    margin: 8vh 0 8vh 0;
+}
+
+.description{
+    margin: 0 5vw 0 5vw;
+    background-color: #F2F1DC;
+    padding: 7vh 12vw 7vh 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description img {
+    margin-bottom: 4vh;
+    width: 10vw;
+    height: auto;
+}
+
+.description p {
+    text-align: justify;
+    color:#623918;
+}
+
+.shop-button{
+    display: flex;
+    justify-content: center;
+    margin: 8vh 0 8vh 0;
+}
+
+.shop-button button {
+    border: none;
+    border-radius: 7px;
+    background-color: #F29E38;
+    color: #F2F1DC;
+    padding: 2vh;
+    font-size: 3vh;
+    font-family: Helvetica, sans-serif;
+}
+
+.shop-button button:hover {
+    padding: 3vh;
+    font-size: 3.5vh;
+}
+
+footer {
+    background-color: #8BD9AD;
+    height: 6vh;
+}
+
+/*Fin de página principal*/

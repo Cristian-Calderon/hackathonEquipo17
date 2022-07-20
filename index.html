@@ -5,15 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <!-- Links CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Mochiy+Pop+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    
+    <section>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+            <img class="navbar-brand" src="/assets/img/logo.png" width="auto" height="85">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <svg width="51" height="47" viewBox="0 0 61 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50.9604 26.125H10.0396C8.70605 26.125 7.625 27.1352 7.625 28.3812V28.6188C7.625 29.8648 8.70605 30.875 10.0396 30.875H50.9604C52.294 30.875 53.375 29.8648 53.375 28.6188V28.3812C53.375 27.1352 52.294 26.125 50.9604 26.125Z" fill="black"/>
+                    <path d="M50.9604 38H10.0396C8.70605 38 7.625 39.0102 7.625 40.2563V40.4937C7.625 41.7398 8.70605 42.75 10.0396 42.75H50.9604C52.294 42.75 53.375 41.7398 53.375 40.4937V40.2563C53.375 39.0102 52.294 38 50.9604 38Z" fill="black"/>
+                    <path d="M50.9604 14.25H10.0396C8.70605 14.25 7.625 15.2602 7.625 16.5062V16.7438C7.625 17.9898 8.70605 19 10.0396 19H50.9604C52.294 19 53.375 17.9898 53.375 16.7438V16.5062C53.375 15.2602 52.294 14.25 50.9604 14.25Z" fill="black"/>
+                    </svg>
+                    
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" >
+                  <li class="nav-item">
+                    <a class="nav-link href="#">Legumbres</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Snacks</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Bebidas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Súper alimentos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </section>
 
-    
+
+          <section id="slider">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/img/alimentos-slider2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/img/alimentos-slider.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/img/zumos.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </section>
+
+          <section class="slogan">
+                <h2>Mejor, eco... Lógico, ¿no?</h2>
+          </section>
+          <article class="description">
+            <img src="/assets/img/shop-icon.png">
+            <p>EcoWhim es un marketplace especializado en productos ecológicos como refrescos, superalimentos, legumbres y snacks... Para saciar tus antojos de forma responsable con el medio ambiente y con tu salud.</p>
+            <p>Te ponemos en contacto con comercios locales, las tiendas pueden publicar sus productos aquí para llegar hasta ti más fácilmente.</p>
+          </article>
+
+          <section class="shop-button">
+
+            <button id="go-shop">
+                Ingresar a la tienda
+            </button>
+
+          </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+<section class="slider">
+
+
+</section>
+    <footer>
+
+    </footer>
 </body>
 </html>
