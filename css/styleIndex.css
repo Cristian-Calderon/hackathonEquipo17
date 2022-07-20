@@ -1,26 +1,4 @@
-/*Inicio de página principal */
-@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
-
-.navbar {
-    background-color: #8BD9AD;
-    font-family: 'Happy Monkey';
-
-}
-
-.navbar-toggler-icon{
-color: black;
-}
-
-.nav-link{
-    color: black;
-    font-weight: 700;
-}
-
-.nav-item a {
-    target: blank;
-    font-size: 3vh;
-    margin: 0 02vw 0 2vw;
-}
+/*Estilo del contenido de la página principal */
 
 a:hover {
     color: #F2F1DC;
@@ -62,6 +40,11 @@ a:hover {
     display: flex;
     justify-content: center;
     margin: 8vh 0 8vh 0;
+}
+
+#go-shop a {
+    text-decoration: none;
+    color: #F2F1DC;
 }
 
 .shop-button button {

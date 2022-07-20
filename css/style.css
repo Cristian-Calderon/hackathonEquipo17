@@ -3,3 +3,39 @@
 @import url(/css/styleProduct.css);
 @import url(/css/styleShop.css);
 
+/*Estilos de header y footer, común a todas las páginas*/
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+.navbar {
+    background-color: #8BD9AD;
+    font-family: 'Happy Monkey';
+}
+
+.navbar-toggler-icon{
+color: black;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 700;
+}
+
+.nav-item a {
+    font-size: 3vh;
+    margin: 0 02vw 0 2vw;
+}
+
+a:hover {
+    color: #F2F1DC;
+}
+
+.carousel-item {
+    max-height: 65vh;
+    background-size: contain;
+}
+
+
+footer {
+    background-color: #8BD9AD;
+    height: 6vh;
+}
