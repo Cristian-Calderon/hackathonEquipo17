@@ -14,8 +14,15 @@ a:hover {
     text-align: center;
     color:#623918;
     margin: 8vh 0 8vh 0;
+    
+
 }
 
+.slogan h2 {
+    font-weight: bold;
+    font-size: 5vh;
+
+}
 .description{
     margin: 0 5vw 0 5vw;
     background-color: #F2F1DC;
@@ -27,13 +34,14 @@ a:hover {
 
 .description img {
     margin-bottom: 4vh;
-    width: 10vw;
+    width: 13vw;
     height: auto;
 }
 
 .description p {
     text-align: justify;
     color:#623918;
+    font-size: 3vh;
 }
 
 .shop-button{

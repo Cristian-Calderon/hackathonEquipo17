@@ -10,16 +10,19 @@
 .category-icon {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 1.5vw;
+
 }
 
 .category-icon img {
-height: 8vh;
-width: auto;
+    width: 12vw;
+
 }
 
 #categories p {
     font-weight: 600;
+    font-size: 2.5vh;
 }
 
 #search{
@@ -70,11 +73,6 @@ width: auto;
 
 /*
 @query 
-
-#categories {
-    display: flex;
-    flex-direction: column;
-}
 
 .search-bar{
     width: 65vw;

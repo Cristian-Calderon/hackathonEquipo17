@@ -1,0 +1,107 @@
+/*Estilo del contenido de las páginas de las categorias */
+@import url(/css/styleCategories.css);
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+.navbar {
+    background-color: #8BD9AD;
+    font-family: 'Happy Monkey';
+}
+
+.navbar-toggler-icon{
+color: black;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 700;
+}
+
+.nav-item a {
+    font-size: 3vh;
+    margin: 0 02vw 0 2vw;
+}
+
+.nav-item a:hover {
+    color: #F2F1DC;
+}
+
+
+footer {
+    background-color: #8BD9AD;
+    height: 6vh;
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+.search-bar{
+    width: 65vw;
+    height: 5vh;
+    border-radius: 3vh;
+    background-color: #DDFFFD;
+    border: solid #7A7A7A 0.1vh;
+    text-align: center;
+    margin: 0 1vw 4vh 0;
+}
+
+#products {
+    margin: 3vh 3vw 4vh 2vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categoria {
+    font-family: 'Happy Monkey';
+    text-align: center;
+    color:#623918;
+    margin: 8vh 0 8vh 0;
+}
+
+.description{
+    margin: 0 5vw 0 5vw;
+    background-color: #F2F1DC;
+    padding: 7vh 12vw 7vh 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.description p {
+    text-align: justify;
+    color:#623918;
+    font-size: 3vh;
+}
+
+.introCategories {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    
+}
+
+.introCategories h2 {
+    font-family: 'Happy Monkey';
+    text-align: center;
+    color: #F2F1DC;
+    font-size: 10vh;
+}
+
+.introCategories {
+    height: 400px; 
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/12/18/20/pulses-4760708_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+}
