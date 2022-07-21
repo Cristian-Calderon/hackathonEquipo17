@@ -92,7 +92,9 @@ footer {
     font-size: 10vh;
 }
 
-.introCategories {
+
+/*Pagina Legumbres*/
+.introCategoriesL {
     height: 400px; 
     background-image: url(https://cdn.pixabay.com/photo/2020/01/12/18/20/pulses-4760708_960_720.jpg);
     background-size: cover;
@@ -104,4 +106,108 @@ footer {
     justify-content: center;
     margin-bottom: 5vh;
     
+}
+
+.introCategoriesL h2 {
+    font-family: 'Happy Monkey';
+    text-align: center;
+    color: #F2F1DC;
+    font-size: 10vh;
+}
+
+/*Pagina Bebidas*/
+.introCategoriesB {
+    height: 400px; 
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/12/18/20/pulses-4760708_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+}
+
+.introCategoriesB h2 {
+    font-family: 'Happy Monkey';
+    text-align: center;
+    color: #F2F1DC;
+    font-size: 10vh;
+}
+
+
+/*Pagina Snacks*/
+.introCategoriesS {
+    height: 400px; 
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/12/18/20/pulses-4760708_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+}
+
+.introCategoriesS h2 {
+    font-family: 'Happy Monkey';
+    text-align: center;
+    color: #F2F1DC;
+    font-size: 10vh;
+}
+
+/*Pagina SuperAlimentos*/
+.introCategoriesSU {
+    height: 400px; 
+    background-image: url(https://www.dietox.es/blog/wp-content/uploads/2017/04/legumbres.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+}
+
+.introCategoriesSU h2 {
+    font-family: 'Happy Monkey';
+    text-align: center;
+    color: #F2F1DC;
+    font-size: 10vh;
+}
+
+/*Texto de tarjetas
+
+.card-text {
+    text-align: justify;
+
+}
+*/
+
+/*Boton de tarjetas*/ 
+.categoriaButton{
+    display: flex;
+    justify-content: center;
+
+}
+
+.categoriaButton a {
+    text-decoration: none;
+    color: #F2F1DC;
+}
+
+.categoriaButton button {
+    border: none;
+    border-radius: 7px;
+    background-color: #F29E38;
+    color: #F2F1DC;
+    padding: 1vh;
+    font-size: 1.5vh;
+    font-family: Helvetica, sans-serif;
 }
