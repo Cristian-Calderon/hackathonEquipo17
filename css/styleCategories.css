@@ -92,7 +92,7 @@ footer {
     font-size: 10vh;
 }
 
-.introCategories {
+.introCategoriesL {
     height: 400px; 
     background-image: url(https://cdn.pixabay.com/photo/2020/01/12/18/20/pulses-4760708_960_720.jpg);
     background-size: cover;
@@ -105,3 +105,46 @@ footer {
     margin-bottom: 5vh;
     
 }
+
+.introCategoriesB {
+    height: 400px; 
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/12/18/20/pulses-4760708_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+}
+
+.introCategoriesS {
+    height: 400px; 
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/12/18/20/pulses-4760708_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+}
+
+.introCategoriesSU {
+    height: 400px; 
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/12/18/20/pulses-4760708_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+}
+
