@@ -1,4 +1,5 @@
-[
+{
+    "listOfProducts": [
     {
         "id": "1",
         "nombre": "Lúcuma en polvo BIO Salud Viva 250 g",
@@ -6,7 +7,9 @@
         "precio": "14.8",
         "favorito": false,
         "categoria": "superalimentos",
-        "vendedor": "Muhammad Yague"
+        "vendedor": "Muhammad Yague",
+        "imagen": "1.png",
+        "link": "https://api.whatsapp.com/send?phone=+34626700583&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "2",
@@ -15,7 +18,9 @@
         "precio": "10.55",
         "favorito": false,
         "categoria": "superalimentos",
-        "vendedor": "Eulalia Piqueras"
+        "vendedor": "Eulalia Piqueras",
+        "imagen": "2.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34662584188&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "3",
@@ -24,7 +29,9 @@
         "precio": "9.40",
         "favorito": false,
         "categoria": "superalimentos",
-        "vendedor": "Jesica Prado"
+        "vendedor": "Jesica Prado",
+        "imagen": "3.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34658596730&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "4",
@@ -33,7 +40,9 @@
         "precio": "1.76",
         "favorito": false,
         "categoria": "snacks",
-        "vendedor": "Gaspar Trigo"
+        "vendedor": "Gaspar Trigo",
+        "imagen": "4.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34645099797&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "5",
@@ -42,7 +51,9 @@
         "precio": "4.10",
         "favorito": false,
         "categoria": "snacks",
-        "vendedor": "Estela Carrasco"
+        "vendedor": "Estela Carrasco",
+        "imagen": "5.webp",
+        "link": "https://api.whatsapp.com/send?phone=+34664763555&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "6",
@@ -51,7 +62,9 @@
         "precio": "2",
         "favorito": false,
         "categoria": "snacks",
-        "vendedor": "Omar Viñas"
+        "vendedor": "Omar Viñas",
+        "imagen": "6.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34601473225&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "7",
@@ -60,7 +73,9 @@
         "precio": "4.79",
         "favorito": false,
         "categoria": "superalimentos",
-        "vendedor": "Muhammad Yague"
+        "vendedor": "Muhammad Yague",
+        "imagen": "7.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34626700583&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "8",
@@ -69,7 +84,9 @@
         "precio": "1.2",
         "favorito": false,
         "categoria": "snacks",
-        "vendedor": "Eulalia Piqueras"
+        "vendedor": "Eulalia Piqueras",
+        "imagen": "8.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34662584188&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "9",
@@ -78,25 +95,31 @@
         "precio": "2",
         "favorito": false,
         "categoria": "snacks",
-        "vendedor": "Jesica Prado"
+        "vendedor": "Jesica Prado",
+        "imagen": "9.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34658596730&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "10",
-        "nombre": "Leche de avena 0% azúcar Ecocesta 1L",
-        "descripcion": "",
-        "precio": "",
+        "nombre": "Bebida de avena 0% azúcar Ecocesta 1L",
+        "descripcion": "Deliciosa bebida elaborada a partir de las nutritivas semillas de la soja, que envuelve suavemente el paladar.",
+        "precio": "2",
         "favorito": false,
-        "categoria": "",
-        "vendedor": "Gaspar Trigo"
+        "categoria": "bebidas",
+        "vendedor": "Gaspar Trigo",
+        "imagen": "10.webp",
+        "link": "https://api.whatsapp.com/send?phone=+34645099797&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "11",
-        "nombre": "",
-        "descripcion": "",
-        "precio": "",
+        "nombre": "Bebida ecológica de soja sabor vainilla Alcampo 1 l.",
+        "descripcion": "Deliciosa bebida elaborada a partir de las nutritivas semillas de la soja, que envuelve suavemente el paladar.",
+        "precio": "1.34",
         "favorito": false,
-        "categoria": "",
-        "vendedor": "Estela Carrasco"
+        "categoria": "bebidas",
+        "vendedor": "Estela Carrasco",
+        "imagen": "11.webp",
+        "link": "https://api.whatsapp.com/send?phone=+34664763555&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "12",
@@ -105,7 +128,9 @@
         "precio": "2.05",
         "favorito": false,
         "categoria": "snacks",
-        "vendedor": "Omar Viñas"
+        "vendedor": "Omar Viñas",
+        "imagen": "12.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34601473225&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "13",
@@ -114,7 +139,9 @@
         "precio": "2.55",
         "favorito": false,
         "categoria": "snacks",
-        "vendedor": "Muhammad Yague"
+        "vendedor": "Muhammad Yague",
+        "imagen": "13.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34626700583&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "14",
@@ -123,52 +150,64 @@
         "precio": "4.8",
         "favorito": false,
         "categoria": "snacks",
-        "vendedor": "Eulalia Piqueras"
+        "vendedor": "Eulalia Piqueras",
+        "imagen": "14.webp",
+        "link": "https://api.whatsapp.com/send?phone=+34662584188&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "15",
-        "nombre": "FOCUS – Smoothie orgánico prensado en frío 300ml",
+        "nombre": "FOCUS - Smoothie orgánico prensado en frío 300ml",
         "descripcion": "Nuestro smoothie verde se llama FOCUS. Es una mezcla refrescante de hierbas (menta y té verde), jalapeño y otras frutas y verduras verdes. Los ingredientes son procedentes de productores locales de invernaderos orgánicos y ecológicos.",
         "precio": "4.55",
         "favorito": false,
         "categoria": "bebidas",
-        "vendedor": "Jesica Prado"
+        "vendedor": "Jesica Prado",
+        "imagen": "15.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34658596730&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "16",
-        "nombre": "",
-        "descripcion": "",
-        "precio": "",
+        "nombre": "Hero Solo 100g",
+        "descripcion": "Bolsita de fruta (manzana,platano,fresa y arándanos) ecologico.",
+        "precio": "1.29",
         "favorito": false,
-        "categoria": "",
-        "vendedor": "Gaspar Trigo"
+        "categoria": "bebidas",
+        "vendedor": "Gaspar Trigo",
+        "imagen": "16.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34645099797&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "17",
-        "nombre": "",
-        "descripcion": "",
-        "precio": "",
+        "nombre": "Leche Bio con Avena 1L",
+        "descripcion": "Nuestra leche bio con avena eco es un mezcla de leche con productos cereales.<br>Los ingredientes son cereales de productores locales, orgánicos y ecológicos.",
+        "precio": "1.34",
         "favorito": false,
-        "categoria": "",
-        "vendedor": "Estela Carrasco"
+        "categoria": "bebidas",
+        "vendedor": "Estela Carrasco",
+        "imagen": "17.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34664763555&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "18",
-        "nombre": "",
-        "descripcion": "",
-        "precio": "",
+        "nombre": "Borges Natura Nuez 1L",
+        "descripcion": "Bebida 100% natural con mezcla de arroz con nuez bio.",
+        "precio": "2.45",
         "favorito": false,
-        "categoria": "",
-        "vendedor": "Omar Viñas"
+        "categoria": "bebidas",
+        "vendedor": "Omar Viñas",
+        "imagen": "18.png",
+        "link": "https://api.whatsapp.com/send?phone=+34601473225&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "19",
-        "nombre": "",
-        "descripcion": "",
-        "precio": "",
+        "nombre": "Social Cut Zumo Verde 1L",
+        "descripcion": "Zumo Ciruela Verde 1l L Bio de Delizum es un alimento que reúne las características necesarias para ser considerado un buen alimento. Una dieta equilibrada y variada nos asegura la aportación necesaria diaria de nutrientes consiguiendo un buen estado físico y mental y garantizando una buena salud.",
+        "precio": "4.25",
         "favorito": false,
-        "categoria": "",
-        "vendedor": "Muhammad Yague"
+        "categoria": "bebidas",
+        "vendedor": "Muhammad Yague",
+        "imagen": "19.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34626700583&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "20",
@@ -176,8 +215,10 @@
         "descripcion": "La spirulina es una alga primitiva en forma de espiral de color azul verdoso. Esto es debido a la presencia de clorofila y de ficocianina.<br>Es un alimento que contiene numerosos nutrientes esenciales básicos para el ser humano tales como: vitaminas, proteínas, minerales, macrominerales, oligoelementos y fitoquímicos. Además, se obtiene mediante la agricultura ecológica por lo que no se le añade ningún tipo de producto químico y es vegana, sin lactosa y no presenta azúcares añadidos.",
         "precio": "10.53",
         "favorito": false,
-        "categoria": "superalimentos",
-        "vendedor": "Eulalia Piqueras"
+        "categoria": "superali  mentos",
+        "vendedor": "Eulalia Piqueras",
+        "imagen": "20.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34662584188&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "21",
@@ -186,7 +227,9 @@
         "precio": "2.25",
         "favorito": false,
         "categoria": "snacks",
-        "vendedor": "Jesica Prado"
+        "vendedor": "Jesica Prado",
+        "imagen": "21.png",
+        "link": "https://api.whatsapp.com/send?phone=+34658596730&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "22",
@@ -195,7 +238,9 @@
         "precio": "2.68",
         "favorito": false,
         "categoria": "snacks",
-        "vendedor": "Gaspar Trigo"
+        "vendedor": "Gaspar Trigo",
+        "imagen": "22.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34645099797&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "23",
@@ -204,25 +249,31 @@
         "precio": "1.5",
         "favorito": false,
         "categoria": "bebidas",
-        "vendedor": "Estela Carrasco"
+        "vendedor": "Estela Carrasco",
+        "imagen": "23.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34664763555&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "24",
-        "nombre": "",
-        "descripcion": "",
-        "precio": "",
+        "nombre": "Zumo Zen Eco",
+        "descripcion": "El zumo Zen ecológico tiene una elevada proporción de vitaminas y propiedades depurativas y antioxidantes. Está elaborado a partir de ingredientes naturales, libres de aditivos químicos.",
+        "precio": "3.25",
         "favorito": false,
-        "categoria": "",
-        "vendedor": "Omar Viñas"
+        "categoria": "bebidas",
+        "vendedor": "Omar Viñas",
+        "imagen": "24.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34601473225&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "25",
-        "nombre": "",
-        "descripcion": "",
-        "precio": "",
+        "nombre": "Bebida Yamo 180ml",
+        "descripcion": "Nuestra bebida Yamo es un zumo natural 100% vegetal con mezcla de vanilla y arándanos.",
+        "precio": "3.49",
         "favorito": false,
-        "categoria": "",
-        "vendedor": "Muhammad Yague"
+        "categoria": "bebidas",
+        "vendedor": "Muhammad Yague",
+        "imagen": "25.jpg",
+        "link": "https://api.whatsapp.com/send?phone=+34626700583&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "26",
@@ -231,7 +282,9 @@
         "precio": "10.5",
         "favorito": false,
         "categoria": "legumbres",
-        "vendedor": "Eulalia Piqueras"
+        "vendedor": "Eulalia Piqueras",
+        "imagen": "26.png",
+        "link": "https://api.whatsapp.com/send?phone=+34662584188&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "27",
@@ -240,7 +293,9 @@
         "precio": "5.99",
         "favorito": false,
         "categoria": "legumbres",
-        "vendedor": "Jesica Prado"
+        "vendedor": "Jesica Prado",
+        "imagen": "27.png",
+        "link": "https://api.whatsapp.com/send?phone=+34658596730&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "28",
@@ -249,7 +304,9 @@
         "precio": "1",
         "favorito": false,
         "categoria": "legumbres",
-        "vendedor": "Gaspar Trigo"
+        "vendedor": "Gaspar Trigo",
+        "imagen": "28.png",
+        "link": "https://api.whatsapp.com/send?phone=+34645099797&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "29",
@@ -258,7 +315,9 @@
         "precio": "7.21",
         "favorito": false,
         "categoria": "superalimentos",
-        "vendedor": "Estela Carrasco"
+        "vendedor": "Estela Carrasco",
+        "imagen": "29.png",
+        "link": "https://api.whatsapp.com/send?phone=+34664763555&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "30",
@@ -267,7 +326,9 @@
         "precio": "4.96",
         "favorito": false,
         "categoria": "superalimentos",
-        "vendedor": "Omar Viñas"
+        "vendedor": "Omar Viñas",
+        "imagen": "30.png",
+        "link": "https://api.whatsapp.com/send?phone=+34601473225&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "31",
@@ -276,7 +337,9 @@
         "precio": "2.45",
         "favorito": false,
         "categoria": "legumbres",
-        "vendedor": "Muhammad Yague"
+        "vendedor": "Muhammad Yague",
+        "imagen": "31.png",
+        "link": "https://api.whatsapp.com/send?phone=+34626700583&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "32",
@@ -285,7 +348,9 @@
         "precio": "2.25",
         "favorito": false,
         "categoria": "legumbres",
-        "vendedor": "Eulalia Piqueras"
+        "vendedor": "Eulalia Piqueras",
+        "imagen": "32.png",
+        "link": "https://api.whatsapp.com/send?phone=+34662584188&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "33",
@@ -294,7 +359,9 @@
         "precio": "2.15",
         "favorito": false,
         "categoria": "legumbres",
-        "vendedor": "Jesica Prado"
+        "vendedor": "Jesica Prado",
+        "imagen": "33.png",
+        "link": "https://api.whatsapp.com/send?phone=+34658596730&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "34",
@@ -303,7 +370,9 @@
         "precio": "€3,05",
         "favorito": false,
         "categoria": "legumbres",
-        "vendedor": "Gaspar Trigo"
+        "vendedor": "Gaspar Trigo",
+        "imagen": "34.png",
+        "link": "https://api.whatsapp.com/send?phone=+34645099797&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "35",
@@ -312,7 +381,9 @@
         "precio": "2,00€",
         "favorito": false,
         "categoria": "snacks",
-        "vendedor": "Estela Carrasco"
+        "vendedor": "Estela Carrasco",
+        "imagen": "35.png",
+        "link": "https://api.whatsapp.com/send?phone=+34664763555&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "36",
@@ -321,7 +392,9 @@
         "precio": "2,83€",
         "favorito": false,
         "categoria": "snacks",
-        "vendedor": "Omar Viñas"
+        "vendedor": "Omar Viñas",
+        "imagen": "36.png",
+        "link": "https://api.whatsapp.com/send?phone=+34601473225&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "37",
@@ -330,7 +403,9 @@
         "precio": "2.8",
         "favorito": false,
         "categoria": "legumbres",
-        "vendedor": "Muhammad Yague"
+        "vendedor": "Muhammad Yague",
+        "imagen": "37.png",
+        "link": "https://api.whatsapp.com/send?phone=+34626700583&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "38",
@@ -339,7 +414,9 @@
         "precio": "7,60€",
         "favorito": false,
         "categoria": "snacks",
-        "vendedor": "Eulalia Piqueras"
+        "vendedor": "Eulalia Piqueras",
+        "imagen": "38.png",
+        "link": "https://api.whatsapp.com/send?phone=+34662584188&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "39",
@@ -348,15 +425,20 @@
         "precio": "22",
         "favorito": false,
         "categoria": "superalimentos",
-        "vendedor": "Jesica Prado"
+        "vendedor": "Jesica Prado",
+        "imagen": "39.png",
+        "link": "https://api.whatsapp.com/send?phone=+34658596730&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     },
     {
         "id": "40",
         "nombre": "Lenteja Castellana 100% ecológica 1kg",
         "descripcion": "Puede contener trazas de sésamo y frutos secos. Apto para veganos y vegetarianos.<br>Estas legumbres secas tienen la piel muy fina y destacan por su ternura y sabor suave. La lenteja castellana tiene excelente cochura en cualquier tipo de agua.<br>500 g y 1kg",
-        "precio": "€2,59",
+        "precio": "2,59€",
         "favorito": false,
         "categoria": "legumbres",
-        "vendedor": "Gaspar Trigo"
+        "vendedor": "Gaspar Trigo",
+        "imagen": "40.png",
+        "link": "https://api.whatsapp.com/send?phone=+34645099797&text=Buenos%20d%C3%ADas,%20me%20gustar%C3%ADa%20adquirir%20este%20producto,%20%C2%BFpodr%C3%ADa%20darme%20m%C3%A1s%20informaci%C3%B3n?"
     }
 ]
+}
