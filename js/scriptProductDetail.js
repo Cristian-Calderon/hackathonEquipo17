@@ -23,11 +23,10 @@ fetchProductsJSON().then((products) =>
             let name = products.listOfProducts[index].nombre;
             let img = products.listOfProducts[index].imagen;
             let price = products.listOfProducts[index].precio;
-            let contact = products.listOfProducts[index].link;
             let description = products.listOfProducts[index].descripcion;
             let seller = products.listOfProducts[index].vendedor;
             let link = products.listOfProducts[index].link;
-            imageDiv.innerHTML = `<img src="./assets/img/${img}" alt="">`;
+            imageDiv.innerHTML = `<img src="./assets/img/${img}" alt="" width="50%">`;
             cardDetail.innerHTML = `
                 <h4 class="card-title">Detalles del producto</h4>
                 <p class="card-text">Precio:</p>
