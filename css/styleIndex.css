@@ -66,6 +66,11 @@ color: black;
     margin: 8vh 0 8vh 0;
 }
 
+#go-shop a {
+    text-decoration: none;
+    color: #F2F1DC;
+}
+
 .shop-button button {
     border: none;
     border-radius: 7px;
@@ -94,7 +99,7 @@ footer {
 
 /*Versión movil*/
 
-@media (min-width: 250px) {
+@media (max-width: 450px) {
     .shop-icon{
         width: 70%;
         padding-bottom: 10%;

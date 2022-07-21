@@ -1,0 +1,95 @@
+/* Estilo del contenido de la tienda */
+#categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 6vh 7vw 4vh 7vw;
+    align-items: center;
+}
+
+.category-icon {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5vw;
+}
+
+.category-icon img {
+height: 8vh;
+width: auto;
+}
+
+#categories p {
+    font-weight: 600;
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar{
+    width: 65vw;
+    height: 5vh;
+    border-radius: 3vh;
+    background-color: #DDFFFD;
+    border: solid #7A7A7A 0.1vh;
+    text-align: center;
+    margin: 0 1vw 4vh 0;
+}
+
+#products {
+    margin: 3vh 3vw 4vh 2vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.product-price {
+    color: #8CD9AD;
+    font-size: 3vh;
+}
+
+#products a {
+    background-color: #F29E38;
+    border: none;
+    border-radius: 3vh;
+    width: 35vw;
+    font-size: 2vh;
+}
+
+.card {
+    margin: 3vh 3vw 3vh 2vw;
+    border: 0.2vw solid #613818;
+    box-shadow: 0 0.7vh 1.5vh 0 rgba(38, 38, 38, 0.4);
+}
+
+/* Rectangle 25 */
+
+
+
+/*
+@query 
+
+#categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar{
+    width: 65vw;
+    height: 5vh;
+    border-radius: 3vh;
+    background-color: #DDFFFD;
+    border: solid #7A7A7A 0.1vh;
+}
+
+#products a {
+    background-color: #F29E38;
+    border: none;
+    border-radius: 3vh;
+    width: 35vw;
+    font-size: 2vh;
+}
+
+*/
