@@ -101,28 +101,28 @@
     {
         "id": "12",
         "nombre": "Butter cup avellana La Finestra Sul Cielo 25g",
-        "descripcion": "",
-        "precio": "",
+        "descripcion": "Avellana Butter Cup bio sin gluten. Delicia para el paladar, sin trazas de leche y 100% bio. ¡Imposible resistirse!<br>Elaborada con cobertura de chocolate negro crudo y manteca de cacao y rellena de crema de avellanas 100%.<br>Endulzada con azúcar de coco y con un toque de sal rosa.",
+        "precio": "2.05",
         "favorito": false,
-        "categoria": "",
+        "categoria": "snacks",
         "vendedor": "Omar Viñas"
     },
     {
         "id": "13",
         "nombre": "Frutas Acidas de Goma Natursoy 75g",
-        "descripcion": "",
-        "precio": "",
+        "descripcion": "¡Descubre los caramelos de frutas ácidas de Natursoy! Deliciosos caramelos ecológicos de frutas ácidas elaborados sin colorantes, sin conservantes y sin OGM. Ideales para disfrutar en cualquier momento del día y lugar, estos dulces harán las delicias de grandes y pequeños.",
+        "precio": "2.55",
         "favorito": false,
-        "categoria": "",
+        "categoria": "snacks",
         "vendedor": "Muhammad Yague"
     },
     {
         "id": "14",
         "nombre": "Crousty roll con crema de cacao y coco BIO Bisson 125g",
-        "descripcion": "",
-        "precio": "",
+        "descripcion": "Barrita crujiente de cereales con cacao rellenas de crema de coco. Fácil de llevar a cualquier parte.<br>Con aceite de girasol. Producto sin gluten.",
+        "precio": "4.8",
         "favorito": false,
-        "categoria": "",
+        "categoria": "snacks",
         "vendedor": "Eulalia Piqueras"
     },
     {
@@ -173,28 +173,28 @@
     {
         "id": "20",
         "nombre": "Spirulina Salud Viva BIO 125g",
-        "descripcion": "",
-        "precio": "",
+        "descripcion": "La spirulina es una alga primitiva en forma de espiral de color azul verdoso. Esto es debido a la presencia de clorofila y de ficocianina.<br>Es un alimento que contiene numerosos nutrientes esenciales básicos para el ser humano tales como: vitaminas, proteínas, minerales, macrominerales, oligoelementos y fitoquímicos. Además, se obtiene mediante la agricultura ecológica por lo que no se le añade ningún tipo de producto químico y es vegana, sin lactosa y no presenta azúcares añadidos.",
+        "precio": "10.53",
         "favorito": false,
-        "categoria": "",
+        "categoria": "superalimentos",
         "vendedor": "Eulalia Piqueras"
     },
     {
         "id": "21",
         "nombre": "Nachos de Lentejas, Remolacha y Chia BIO Anaconda Foods 125g",
-        "descripcion": "",
-        "precio": "",
+        "descripcion": "Son nachos proteícos, con un 40% más PROTEÍNA que el resto de los nachos del mercado. Sin conservantes, Sin harinas refinadas. Apto para Veganos. Cada bolsa tiene 125 gramos- bolsa para compartir y dippear...mmmmhh. Convierte nuestros nachos en el snack de tus fiestas y eventos.",
+        "precio": "2.25",
         "favorito": false,
-        "categoria": "",
+        "categoria": "snacks",
         "vendedor": "Jesica Prado"
     },
     {
         "id": "22",
         "nombre": "Wafels caramelo BIOCOP 175g",
-        "descripcion": "",
-        "precio": "",
+        "descripcion": "Wafels Rellenos de Sirope y Caramelo de Biocop.<br>Galletas de harina integral rellenas, típico dulce holandés y crujiente con aceite de girasol.",
+        "precio": "2.68",
         "favorito": false,
-        "categoria": "",
+        "categoria": "snacks",
         "vendedor": "Gaspar Trigo"
     },
     {
@@ -236,37 +236,37 @@
     {
         "id": "27",
         "nombre": "Anacardo Planeta Huerto 200g",
-        "descripcion": "",
-        "precio": "",
+        "descripcion": "Los anacardos son frutos secos ricos en ácidos grasos insaturados con un gran valor nutricional, lo que los convierte en un alimento muy beneficioso para el organismo.<br>Ayuda a favorecer el descanso. Los anacardos son ricos en triptófano, aminoácido precursor de los neurotransmisores serotonina y melatonina, y de la vitamina B3 o niacina. Actúa como un bálsamo para el sistema nervioso y su inclusión en la dieta nos ayuda a descansar, además de mejorar nuestro estado de ánimo.",
+        "precio": "5.99",
         "favorito": false,
-        "categoria": "",
+        "categoria": "legumbres",
         "vendedor": "Jesica Prado"
     },
     {
         "id": "28",
         "nombre": "Tortitas de arroz integral y legumbres 30g",
-        "descripcion": "",
-        "precio": "",
+        "descripcion": "Deliciosas chips de tortitas ecológicas de arroz integral y legumbres en forma de divertidos triángulos. ¡Un snack nutritivo y súper divertido! Con solo 3 ingredientes, ¡Absolutamente nada más! Disfruta de un snack y aperitivo saludable y delicioso con los triángulos de SillyBilly.",
+        "precio": "1",
         "favorito": false,
-        "categoria": "",
+        "categoria": "legumbres",
         "vendedor": "Gaspar Trigo"
     },
     {
         "id": "29",
         "nombre": "Espirulina en polvo ECO Planeta Huerto 200 g",
-        "descripcion": "",
-        "precio": "",
+        "descripcion": "A diferencia de la creencia popular, la espirulina es una cianobacteria y no un alga, en forma de espiral (de ahí su nombre) y de color verdiazul. Las cianobacterias son bacterias capaces de hacer fotosíntesis y a la vez son procariotas, es decir, sin núcleo. Se caracterizan por tener unos pigmentos especiales que les proporcionan ese tono azulado tan característico, con unas propiedades muy interesantes para nuestra salud.",
+        "precio": "7.21",
         "favorito": false,
-        "categoria": "",
+        "categoria": "superalimentos",
         "vendedor": "Estela Carrasco"
     },
     {
         "id": "30",
         "nombre": "Levadura de Cerveza El Granero Integral 300gr",
-        "descripcion": "",
-        "precio": "",
+        "descripcion": "Levadura de Cerveza El Granero Integral, sin huevo, sin lactosa, sin azúcar, vegano.<br>Contiene gluten. Puede contener trazas de soja, sésamo y frutos secos.",
+        "precio": "4.96",
         "favorito": false,
-        "categoria": "",
+        "categoria": "superalimentos",
         "vendedor": "Omar Viñas"
     },
     {
@@ -325,11 +325,11 @@
     },
     {
         "id": "37",
-        "nombre": "100 % Azuki 100g",
-        "descripcion": "",
-        "precio": "",
+        "nombre": "Azuki 100g",
+        "descripcion": "100 % Azuki de color rojo oscuro-marrón con una franja blanca.<br>Las azukis o frijoles rojos son alimentos del grupo de las legumbres, en concreto son una clase de alubias. Aunque como legumbres solo asociemos garbanzos, lentejas o judías blancas, es interesante saber lo fundamental que es incorporar esta semilla a nuestra alimentación, junto con el resto de su grupo.",
+        "precio": "2.8",
         "favorito": false,
-        "categoria": "",
+        "categoria": "legumbres",
         "vendedor": "Muhammad Yague"
     },
     {
@@ -344,10 +344,10 @@
     {
         "id": "39",
         "nombre": "Amalaki Organic India 90 caps",
-        "descripcion": "",
-        "precio": "",
+        "descripcion": "El Amalaki es bien conocida por ser el único alimento que contiene cinco de los seis sabores esenciales (rasas): ácido, dulce, amargo, picante y astringente. Le falta el sabor salado. Esta es una propiedad valiosa, entre otras:<ul><li>Antioxidante y rejuvenecedora</li><li>Antimicrobiana</li><li>Refrescante y nutritiva</li><li>Protectora del hígado</li><li>Antiinflamatoria</li></ul>",
+        "precio": "22",
         "favorito": false,
-        "categoria": "",
+        "categoria": "superalimentos",
         "vendedor": "Jesica Prado"
     },
     {
