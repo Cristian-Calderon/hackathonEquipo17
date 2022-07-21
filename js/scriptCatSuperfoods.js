@@ -14,12 +14,13 @@ let name = products.listOfProducts[index].nombre;
 let img = products.listOfProducts[index].imagen;
 let price = products.listOfProducts[index].precio;
 let contact = products.listOfProducts[index].link;
+let id = products.listOfProducts[index].id;
 
 let category = products.listOfProducts[index].categoria;
 if (category == "superalimentos") {
 shop.innerHTML += `
 <div class="card" style="width: 100vw;">
-<img src="../assets/img/${img}" class="card-img-top" alt="...">
+<img src="../assets/img/${img}" class="card-img-top" alt="..." onclick="goToDetail(${id})">
 <div class="card-body">
 <h5 class="card-title">${name}</h5>
 <div>
