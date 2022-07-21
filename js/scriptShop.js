@@ -1,23 +1,23 @@
 
-        const requestURL = "../data.json";
+const requestURL = "../data.json";
 
-        async function fetchProductsJSON() {
-        const response = await fetch(requestURL);
-        const products = await response.json();
-        return products;
-        }
+async function fetchProductsJSON() {
+    const response = await fetch(requestURL);
+    const products = await response.json();
+    return products;
+}
 
-        fetchProductsJSON().then((products) => {
-            for (let index = 0; index < products.listOfProducts.length; index++) {
-                const shop = document.getElementById("products");
-            
-                let name = products.listOfProducts[index].nombre;
-                let img = products.listOfProducts[index].imagen;
-                let price = products.listOfProducts[index].precio;
-                let contact = products.listOfProducts[index].link;
-                let id = products.listOfProducts[index].id;
-                
-                shop.innerHTML += `
+fetchProductsJSON().then((products) => {
+    for (let index = 0; index < products.listOfProducts.length; index++) {
+        const shop = document.getElementById("products");
+
+        let name = products.listOfProducts[index].nombre;
+        let img = products.listOfProducts[index].imagen;
+        let price = products.listOfProducts[index].precio;
+        let contact = products.listOfProducts[index].link;
+        let id = products.listOfProducts[index].id;
+
+        shop.innerHTML += `
                 
                 <div class="card" style="width: 100vw;">
             <img src="../assets/img/${img}" class="card-img-top" alt="..." onclick="goToDetail(${id})">
@@ -34,15 +34,7 @@
             </div>
         </div>
         `;
-            }
-        }
-        )
+    }
+}
+)
 
-        const search = document.getElementById("searchBox")
-        const searchButton = document.getElementById("searchButton")
-        searchButton.onclick = function(){
-            search.classList.toggle('active')
-        }
-
-    
-        /*sustituir json por el nombre de la lista de objetos*/
