@@ -37,8 +37,11 @@
         }
         )
 
-        
-
+        const search = document.getElementById("searchBox")
+        const searchButton = document.getElementById("searchButton")
+        searchButton.onclick = function(){
+            search.classList.toggle('active')
+        }
 
     
         /*sustituir json por el nombre de la lista de objetos*/

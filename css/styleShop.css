@@ -30,6 +30,16 @@ width: auto;
     justify-content: center;
 }
 
+#searchBox.active{
+    background-color: beige;
+    width: 70vw;
+    height: 10vh;
+}
+
+.delete {
+    
+}
+
 .search-bar{
     width: 65vw;
     height: 5vh;
