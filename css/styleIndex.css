@@ -11,6 +11,11 @@
 color: black;
 }
 
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+
 .nav-link{
     color: black;
     font-weight: 700;
@@ -65,30 +70,27 @@ color: black;
     justify-content: center;
     margin: 8vh 0 8vh 0;
 }
-
-#go-shop a {
-    text-decoration: none;
-    color: #F2F1DC;
-}
-
-.shop-button button {
-    border: none;
+#go-shop {
     border-radius: 7px;
-    background-color: #F29E38;
-    color: #F2F1DC;
+    border: none;
+    background-color: #F19E38;
     padding: 2vh;
     font-size: 3vh;
     font-family: Helvetica, sans-serif;
 }
-
-.shop-button button:hover {
-    padding: 3vh;
-    font-size: 3.5vh;
-    background-color: white;
-    color:#F29E38; 
-    border: 2px solid #F29E38;
-
+#go-shop a {
+    text-decoration: none;
+    color: #F2F1DC;
 }
+#go-shop:hover{
+    border: #F19E38 2px solid;
+    background-color: white;
+}
+#go-shop a:hover{
+    color: #F19E38;
+}
+
+
 
 footer {
     background-color: #8BD9AD;
