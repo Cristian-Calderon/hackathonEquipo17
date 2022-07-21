@@ -10,6 +10,7 @@
 .category-icon {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 1.5vw;
 }
 
@@ -20,6 +21,8 @@ width: auto;
 
 #categories p {
     font-weight: 600;
+    font-size: 2.5vh;
+
 }
 
 #search{
@@ -41,9 +44,8 @@ width: auto;
     margin: 3vh 3vw 4vh 2vh;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
-
-
 
 .product-price {
     color: #8CD9AD;
@@ -54,14 +56,16 @@ width: auto;
     background-color: #F29E38;
     border: none;
     border-radius: 3vh;
-    width: 35vw;
+
+    width: 10vw;
     font-size: 2vh;
 }
 
 .card {
-    margin: 3vh 3vw 3vh 2vw;
+    margin: 3vh 3vw 3vh 3vw;
     border: 0.2vw solid #613818;
     box-shadow: 0 0.7vh 1.5vh 0 rgba(38, 38, 38, 0.4);
+    max-width: 20vw;
 }
 
 /* Rectangle 25 */
@@ -70,11 +74,6 @@ width: auto;
 
 /*
 @query 
-
-#categories {
-    display: flex;
-    flex-direction: column;
-}
 
 .search-bar{
     width: 65vw;

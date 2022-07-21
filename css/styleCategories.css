@@ -1,0 +1,228 @@
+/*Estilo del contenido de las páginas de las categorias */
+@import url(/css/styleCategories.css);
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+.navbar {
+    background-color: #8BD9AD;
+    font-family: 'Happy Monkey';
+}
+
+.navbar-toggler-icon{
+color: black;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 700;
+}
+
+.nav-item a {
+    font-size: 3vh;
+    margin: 0 02vw 0 2vw;
+}
+
+.nav-item a:hover {
+    color: #F2F1DC;
+}
+
+
+footer {
+    background-color: #8BD9AD;
+    height: 6vh;
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+.search-bar{
+    width: 65vw;
+    height: 5vh;
+    border-radius: 3vh;
+    background-color: #DDFFFD;
+    border: solid #7A7A7A 0.1vh;
+    text-align: center;
+    margin: 0 1vw 4vh 0;
+}
+
+#products {
+    margin: 3vh 3vw 4vh 2vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categoria {
+    font-family: 'Happy Monkey';
+    text-align: center;
+    color:#623918;
+    margin: 8vh 0 8vh 0;
+}
+
+.description{
+    margin: 0 5vw 0 5vw;
+    background-color: #F2F1DC;
+    padding: 7vh 12vw 7vh 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.description p {
+    text-align: justify;
+    color:#623918;
+    font-size: 3vh;
+}
+
+.introCategories {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    
+}
+
+.introCategories h2 {
+    font-family: 'Happy Monkey';
+    text-align: center;
+    color: #F2F1DC;
+    font-size: 10vh;
+}
+
+
+/*Pagina Legumbres*/
+.introCategoriesL {
+    height: 400px; 
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/12/18/20/pulses-4760708_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+}
+
+.introCategoriesL h2 {
+    font-family: 'Happy Monkey';
+    text-align: center;
+    color: #F2F1DC;
+    font-size: 10vh;
+}
+
+/*Pagina Bebidas*/
+.introCategoriesB {
+    height: 400px; 
+    background-image: url(https://images.unsplash.com/photo-1622485831129-b820c2891f4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+}
+
+.introCategoriesB h2 {
+    font-family: 'Happy Monkey';
+    text-align: center;
+    color: #F2F1DC;
+    font-size: 10vh;
+}
+
+
+/*Pagina Snacks*/
+.introCategoriesS {
+    height: 400px; 
+    background-image: url(https://images.unsplash.com/photo-1621057621209-baf1644dc82c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+}
+
+.introCategoriesS h2 {
+    font-family: 'Happy Monkey';
+    text-align: center;
+    color: #F2F1DC;
+    font-size: 10vh;
+}
+
+/*Pagina SuperAlimentos*/
+.introCategoriesSU {
+    height: 400px; 
+    background-image: url(https://www.dietox.es/blog/wp-content/uploads/2017/04/legumbres.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+}
+
+.introCategoriesSU h2 {
+    font-family: 'Happy Monkey';
+    text-align: center;
+    color: #F2F1DC;
+    font-size: 10vh;
+}
+
+/*Texto de tarjetas
+
+.card-text {
+    text-align: justify;
+
+}
+
+
+#panelLegumes {
+    margin: 3vh 3vw 4vh 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#panelLegumes a {
+    background-color: #F29E38;
+    border: none;
+    border-radius: 3vh;
+    width: 10vw;
+    font-size: 2vh;
+}
+
+/*Boton de tarjetas*/ 
+.categoriaButton{
+    display: flex;
+    justify-content: center;
+
+}
+
+.categoriaButton a {
+    text-decoration: none;
+    color: #F2F1DC;
+}
+
+.categoriaButton button {
+    border: none;
+    border-radius: 7px;
+    background-color: #F29E38;
+    color: #F2F1DC;
+    padding: 1vh;
+    font-size: 1.5vh;
+    font-family: Helvetica, sans-serif;
+}

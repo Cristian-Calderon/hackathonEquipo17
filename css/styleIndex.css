@@ -1,3 +1,4 @@
+
 /*Inicio de página principal */
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
 
@@ -26,6 +27,7 @@ color: black;
     margin: 0 02vw 0 2vw;
 }
 
+
 .nav-item  a:hover {
     color: #F2F1DC;
 }
@@ -40,10 +42,18 @@ color: black;
     text-align: center;
     color:#623918;
     margin: 8vh 0 8vh 0;
+    
+
 }
 .shop-icon{
     width: 20%;
     padding-bottom: 2%;
+
+
+.slogan h2 {
+    font-weight: bold;
+    font-size: 5vh;
+
 }
 .description{
     margin: 0 5vw 0 5vw;
@@ -56,13 +66,14 @@ color: black;
 
 /* .description img {
     margin-bottom: 4vh;
-    width: 10vw;
+    width: 13vw;
     height: auto;
 } */
 
 .description p {
     text-align: justify;
     color:#623918;
+    font-size: 3vh;
 }
 
 .shop-button{
@@ -70,7 +81,24 @@ color: black;
     justify-content: center;
     margin: 8vh 0 8vh 0;
 }
+
 #go-shop {
+    border-radius: 7px;
+    border: none;
+    background-color: #F19E38;
+    padding: 2vh;
+    font-size: 3vh;
+    font-family: Helvetica, sans-serif;
+}
+
+#go-shop a {
+    text-decoration: none;
+    color: #F2F1DC;
+}
+
+.shop-button button {
+    border: none;
+
     border-radius: 7px;
     border: none;
     background-color: #F19E38;
