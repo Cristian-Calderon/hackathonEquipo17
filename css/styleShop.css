@@ -15,13 +15,14 @@
 }
 
 .category-icon img {
-    width: 12vw;
-
+height: 8vh;
+width: auto;
 }
 
 #categories p {
     font-weight: 600;
     font-size: 2.5vh;
+
 }
 
 #search{
@@ -46,7 +47,6 @@
     justify-content: center;
 }
 
-
 .product-price {
     color: #8CD9AD;
     font-size: 3vh;
@@ -56,6 +56,7 @@
     background-color: #F29E38;
     border: none;
     border-radius: 3vh;
+
     width: 10vw;
     font-size: 2vh;
 }

@@ -22,7 +22,9 @@ color: black;
 }
 
 .nav-item a {
-    font-size: 2vh;
+
+    font-size: 3vh;
+
     margin: 0 02vw 0 2vw;
 }
 
