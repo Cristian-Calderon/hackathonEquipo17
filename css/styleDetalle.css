@@ -48,10 +48,26 @@
         text-align: center;
         margin: 0 1vw 4vh 0;
     }
-   .Productos{
+    .imagen {
+        width: 40%;
+    }
+    #product-content{
+        display: flex;
+        justify-content: center;
+   
+    }
+
+   .productos{
         display: flex;
         flex-direction:row;
+        width: 80%;
    }
+
+
+   .card-body {
+
+   }
+
    .btn{
     border: none;
     border-radius: 7px;

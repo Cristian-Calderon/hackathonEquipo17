@@ -182,7 +182,7 @@ footer {
     font-size: 10vh;
 }
 
-/*Texto de tarjetas
+/*Texto de tarjetas*/
 
 .card-text {
     text-align: justify;
@@ -190,7 +190,7 @@ footer {
 }
 
 
-#panelLegumes {
+#panelLegumes, #panelDrinks, #panelSnacks, #panelSuperfoods {
     margin: 3vh 3vw 4vh 2vh;
     display: flex;
     flex-wrap: wrap;
@@ -198,6 +198,30 @@ footer {
 }
 
 #panelLegumes a {
+    background-color: #F29E38;
+    border: none;
+    border-radius: 3vh;
+    width: 10vw;
+    font-size: 2vh;
+}
+
+#panelDrinks a {
+    background-color: #F29E38;
+    border: none;
+    border-radius: 3vh;
+    width: 10vw;
+    font-size: 2vh;
+}
+
+#panelSnacks a {
+    background-color: #F29E38;
+    border: none;
+    border-radius: 3vh;
+    width: 10vw;
+    font-size: 2vh;
+}
+
+#panelSuperfoods a {
     background-color: #F29E38;
     border: none;
     border-radius: 3vh;

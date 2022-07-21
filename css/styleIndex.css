@@ -48,7 +48,7 @@ color: black;
 .shop-icon{
     width: 20%;
     padding-bottom: 2%;
-
+}
 
 .slogan h2 {
     font-weight: bold;
@@ -112,10 +112,7 @@ color: black;
 }
 #go-shop:hover{
     border: #F19E38 2px solid;
-    background-color: white;
-}
-#go-shop a:hover{
-    color: #F19E38;
+    font-weight: 600;
 }
 
 
