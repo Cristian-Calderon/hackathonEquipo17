@@ -1,6 +1,34 @@
-/*Estilo del contenido de la página principal */
 
-a:hover {
+/*Inicio de página principal */
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+.navbar {
+    background-color: #8BD9AD;
+    font-family: 'Happy Monkey';
+
+}
+
+.navbar-toggler-icon{
+color: black;
+}
+
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 700;
+}
+
+.nav-item a {
+    font-size: 3vh;
+    margin: 0 02vw 0 2vw;
+}
+
+
+.nav-item  a:hover {
     color: #F2F1DC;
 }
 
@@ -17,6 +45,10 @@ a:hover {
     
 
 }
+.shop-icon{
+    width: 20%;
+    padding-bottom: 2%;
+
 
 .slogan h2 {
     font-weight: bold;
@@ -32,11 +64,11 @@ a:hover {
     align-items: center;
 }
 
-.description img {
+/* .description img {
     margin-bottom: 4vh;
     width: 13vw;
     height: auto;
-}
+} */
 
 .description p {
     text-align: justify;
@@ -50,6 +82,15 @@ a:hover {
     margin: 8vh 0 8vh 0;
 }
 
+#go-shop {
+    border-radius: 7px;
+    border: none;
+    background-color: #F19E38;
+    padding: 2vh;
+    font-size: 3vh;
+    font-family: Helvetica, sans-serif;
+}
+
 #go-shop a {
     text-decoration: none;
     color: #F2F1DC;
@@ -57,18 +98,27 @@ a:hover {
 
 .shop-button button {
     border: none;
+
     border-radius: 7px;
-    background-color: #F29E38;
-    color: #F2F1DC;
+    border: none;
+    background-color: #F19E38;
     padding: 2vh;
     font-size: 3vh;
     font-family: Helvetica, sans-serif;
 }
-
-.shop-button button:hover {
-    padding: 3vh;
-    font-size: 3.5vh;
+#go-shop a {
+    text-decoration: none;
+    color: #F2F1DC;
 }
+#go-shop:hover{
+    border: #F19E38 2px solid;
+    background-color: white;
+}
+#go-shop a:hover{
+    color: #F19E38;
+}
+
+
 
 footer {
     background-color: #8BD9AD;
@@ -76,3 +126,12 @@ footer {
 }
 
 /*Fin de página principal*/
+
+/*Versión movil*/
+
+@media (max-width: 450px) {
+    .shop-icon{
+        width: 70%;
+        padding-bottom: 10%;
+    }    
+}
