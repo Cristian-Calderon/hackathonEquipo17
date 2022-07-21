@@ -20,7 +20,7 @@
                 shop.innerHTML += `
                 
                 <div class="card" style="width: 100vw;">
-                <img src="../assets/img/${img}" class="card-img-top" alt="..." onclick="goToDetail(${id})">
+            <img src="../assets/img/${img}" class="card-img-top" alt="..." onclick="goToDetail(${id})">
             <div class="card-body">
             <h5 class="card-title">${name}</h5>
             <div>
