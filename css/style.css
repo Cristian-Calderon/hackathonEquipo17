@@ -2,6 +2,7 @@
 @import url(/css/styleCategories.css);
 @import url(/css/styleProduct.css);
 @import url(/css/styleShop.css);
+@import url(/css/styleDetalle.css);
 
 /*Estilos de header y footer, común a todas las páginas*/
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
@@ -36,6 +37,23 @@ a:hover {
 
 
 footer {
+    display: flex;
     background-color: #8BD9AD;
-    height: 6vh;
+    height: 50px;
+    gap:190px;
+    justify-content: center;
+    
 }
+.icon-redes{
+    width: 90%;
+    height: auto;
+    
+}
+@media (max-width: 450px) {
+    footer{ height:60px;
+        gap:35px;
+        justify-content: center;
+        
+    }    
+}
+
