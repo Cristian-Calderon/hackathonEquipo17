@@ -190,6 +190,21 @@ footer {
 }
 */
 
+#panelLegumes {
+    margin: 3vh 3vw 4vh 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#panelLegumes a {
+    background-color: #F29E38;
+    border: none;
+    border-radius: 3vh;
+    width: 10vw;
+    font-size: 2vh;
+}
+
 /*Boton de tarjetas*/ 
 .categoriaButton{
     display: flex;

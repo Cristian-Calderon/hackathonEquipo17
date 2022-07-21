@@ -15,14 +15,15 @@
                 let img = products.listOfProducts[index].imagen;
                 let price = products.listOfProducts[index].precio;
                 let contact = products.listOfProducts[index].link;
+                
                 shop.innerHTML += `
                 
                 <div class="card" style="width: 100vw;">
-            <img src="${img}" class="card-img-top" alt="...">
+            <img src="../assets/img/${img}" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">${name}</h5>
             <div>
-                <p class="product-price">${price}</p>
+                <p class="product-price">${price}€</p>
             </div>
 
             <a href="${contact}" class="btn btn-primary">Contactar <svg width="35" height="35" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
