@@ -98,7 +98,6 @@ color: black;
 
 .shop-button button {
     border: none;
-
     border-radius: 7px;
     border: none;
     background-color: #F19E38;
@@ -111,6 +110,7 @@ color: black;
     color: #F2F1DC;
 }
 #go-shop:hover{
+    padding: 3vh;
     border: #F19E38 2px solid;
     font-weight: 600;
 }

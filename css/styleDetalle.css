@@ -74,10 +74,9 @@
    }
    .btn:hover{
     padding: 3vh;
-    font-size: 3.5vh;
-    background-color: white;
-    color:#F29E38; 
-    border: 2px solid #F29E38;
+    border: #F19E38 2px solid;
+    font-weight: 600;
+    color: #F2F1DC;
 
    }
 
