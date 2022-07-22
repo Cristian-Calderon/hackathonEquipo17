@@ -49,26 +49,20 @@
         margin: 0 1vw 4vh 0;
     }
     .imagen {
-        width: 40%;
+        width: 50vh;
     }
-    #product-content{
+    .detailedProduct{
         display: flex;
+        flex-direction: row;
         justify-content: center;
-   
+        margin: 0 7vw 5vh 7vw;
     }
 
-   .productos{
-        display: flex;
-        flex-direction:row;
-        width: 80%;
-   }
+.card-body {
+    max-width: 60vw;
+}
 
-
-   .card-body {
-
-   }
-
-   .btn{
+.btn{
     border: none;
     border-radius: 7px;
     background-color: #F29E38;
@@ -86,3 +80,13 @@
     border: 2px solid #F29E38;
 
    }
+
+   @media (max-width: 650px) {
+    .detailedProduct{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 7vw 5vh 7vw;
+    }
+
+}

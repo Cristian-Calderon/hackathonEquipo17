@@ -22,7 +22,7 @@ fetchProductsJSON().then((products) => {
                 <div class="card" style="width: 100vw;">
             <img src="../assets/img/${img}" class="card-img-top" alt="..." onclick="goToDetail(${id})">
             <div class="card-body">
-            <h5 class="card-title">${name}</h5>
+            <h5 class="card-title" width="10vw">${name}</h5>
             <div>
                 <p class="product-price">${price}€</p>
             </div>
